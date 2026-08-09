@@ -87,11 +87,17 @@ jobs:
           DISPATCH_WHISPER_MODEL: ${{ github.event.client_payload.whisper_model }}
           INPUT_WHISPER_MODEL: ${{ github.event.inputs.whisper_model }}
         run: |
-          MODEL="${DISPATCH_WHISPER_MODEL:-${INPUT_WHISPER_MODEL:-medium}}"
-          python scripts/transcribe.py \
-            --audio "${{ steps.audio.outputs.audio_path }}" \
-            --output remotion/public/lyrics.json \
-            --model "$MODEL"
+          MANUAL_LYRICS="lyrics/${{ steps.audio.outputs.title }}.json"
+          if [ -f "$MANUAL_LYRICS" ]; then
+            cp "$MANUAL_LYRICS" remotion/public/lyrics.json
+            echo "Manuelle Lyrics verwendet: $MANUAL_LYRICS"
+          else
+            MODEL="${DISPATCH_WHISPER_MODEL:-${INPUT_WHISPER_MODEL:-medium}}"
+            python scripts/transcribe.py \
+              --audio "${{ steps.audio.outputs.audio_path }}" \
+              --output remotion/public/lyrics.json \
+              --model "$MODEL"
+          fi
 
       - name: Audio ins Remotion-public kopieren
         id: converted_audio

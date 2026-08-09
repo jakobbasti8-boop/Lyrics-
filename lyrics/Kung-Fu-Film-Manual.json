@@ -1,0 +1,2473 @@
+[
+  {
+    "word": "[Intro",
+    "start": 0,
+    "end": 0.5
+  },
+  {
+    "word": "Beat",
+    "start": 0.5,
+    "end": 1
+  },
+  {
+    "word": "/",
+    "start": 1,
+    "end": 1.5
+  },
+  {
+    "word": "Vocal",
+    "start": 1.5,
+    "end": 2
+  },
+  {
+    "word": "Sample:",
+    "start": 2,
+    "end": 2.5
+  },
+  {
+    "word": "\"Ah!\"]",
+    "start": 2.5,
+    "end": 3
+  },
+  {
+    "word": "[Instrumental",
+    "start": 3,
+    "end": 4.5
+  },
+  {
+    "word": "Beat]",
+    "start": 4.5,
+    "end": 6
+  },
+  {
+    "word": "[Sample]",
+    "start": 6,
+    "end": 6.6
+  },
+  {
+    "word": "Die",
+    "start": 6.6,
+    "end": 7.2
+  },
+  {
+    "word": "Kunst",
+    "start": 7.2,
+    "end": 7.8
+  },
+  {
+    "word": "des",
+    "start": 7.8,
+    "end": 8.4
+  },
+  {
+    "word": "Kampfes...",
+    "start": 8.4,
+    "end": 9
+  },
+  {
+    "word": "...liegt",
+    "start": 9,
+    "end": 9.75
+  },
+  {
+    "word": "nicht",
+    "start": 9.75,
+    "end": 10.5
+  },
+  {
+    "word": "im",
+    "start": 10.5,
+    "end": 11.25
+  },
+  {
+    "word": "Schlagen,",
+    "start": 11.25,
+    "end": 12
+  },
+  {
+    "word": "...sondern",
+    "start": 12,
+    "end": 13
+  },
+  {
+    "word": "im",
+    "start": 13,
+    "end": 14
+  },
+  {
+    "word": "Überleben.",
+    "start": 14,
+    "end": 15
+  },
+  {
+    "word": "Komm",
+    "start": 15,
+    "end": 15.75
+  },
+  {
+    "word": "schon,",
+    "start": 15.75,
+    "end": 16.5
+  },
+  {
+    "word": "hol's",
+    "start": 16.5,
+    "end": 17.25
+  },
+  {
+    "word": "dir.",
+    "start": 17.25,
+    "end": 18
+  },
+  {
+    "word": "Lass",
+    "start": 18,
+    "end": 18.6
+  },
+  {
+    "word": "den",
+    "start": 18.6,
+    "end": 19.2
+  },
+  {
+    "word": "Beat",
+    "start": 19.2,
+    "end": 19.8
+  },
+  {
+    "word": "einfach",
+    "start": 19.8,
+    "end": 20.4
+  },
+  {
+    "word": "atmen.",
+    "start": 20.4,
+    "end": 21
+  },
+  {
+    "word": "Das",
+    "start": 21,
+    "end": 21.375
+  },
+  {
+    "word": "ist",
+    "start": 21.375,
+    "end": 21.75
+  },
+  {
+    "word": "deutsches",
+    "start": 21.75,
+    "end": 22.125
+  },
+  {
+    "word": "Credo,",
+    "start": 22.125,
+    "end": 22.5
+  },
+  {
+    "word": "36",
+    "start": 22.5,
+    "end": 22.875
+  },
+  {
+    "word": "Kammern",
+    "start": 22.875,
+    "end": 23.25
+  },
+  {
+    "word": "im",
+    "start": 23.25,
+    "end": 23.625
+  },
+  {
+    "word": "Bronco.",
+    "start": 23.625,
+    "end": 24
+  },
+  {
+    "word": "Pass",
+    "start": 24,
+    "end": 25.5
+  },
+  {
+    "word": "auf!",
+    "start": 25.5,
+    "end": 27
+  },
+  {
+    "word": "Vom",
+    "start": 27,
+    "end": 27.3
+  },
+  {
+    "word": "Casino",
+    "start": 27.3,
+    "end": 27.6
+  },
+  {
+    "word": "in",
+    "start": 27.6,
+    "end": 27.9
+  },
+  {
+    "word": "den",
+    "start": 27.9,
+    "end": 28.2
+  },
+  {
+    "word": "Bronco,",
+    "start": 28.2,
+    "end": 28.5
+  },
+  {
+    "word": "ich",
+    "start": 28.5,
+    "end": 28.8
+  },
+  {
+    "word": "fahr",
+    "start": 28.8,
+    "end": 29.1
+  },
+  {
+    "word": "vor,",
+    "start": 29.1,
+    "end": 29.4
+  },
+  {
+    "word": "Konto",
+    "start": 29.4,
+    "end": 29.7
+  },
+  {
+    "word": "gestützt,",
+    "start": 29.7,
+    "end": 30
+  },
+  {
+    "word": "ihr",
+    "start": 30,
+    "end": 30.375
+  },
+  {
+    "word": "wartet",
+    "start": 30.375,
+    "end": 30.75
+  },
+  {
+    "word": "auf",
+    "start": 30.75,
+    "end": 31.125
+  },
+  {
+    "word": "Kommandos,",
+    "start": 31.125,
+    "end": 31.5
+  },
+  {
+    "word": "ich",
+    "start": 31.5,
+    "end": 31.875
+  },
+  {
+    "word": "agier",
+    "start": 31.875,
+    "end": 32.25
+  },
+  {
+    "word": "prompt",
+    "start": 32.25,
+    "end": 32.625
+  },
+  {
+    "word": "ungeschützt.",
+    "start": 32.625,
+    "end": 33
+  },
+  {
+    "word": "Vorm",
+    "start": 33,
+    "end": 33.375
+  },
+  {
+    "word": "Schlüsselloch",
+    "start": 33.375,
+    "end": 33.75
+  },
+  {
+    "word": "zum",
+    "start": 33.75,
+    "end": 34.125
+  },
+  {
+    "word": "Hauptgewinn,",
+    "start": 34.125,
+    "end": 34.5
+  },
+  {
+    "word": "Simsalabim,",
+    "start": 34.5,
+    "end": 34.875
+  },
+  {
+    "word": "mein",
+    "start": 34.875,
+    "end": 35.25
+  },
+  {
+    "word": "Credo",
+    "start": 35.25,
+    "end": 35.625
+  },
+  {
+    "word": "Symbol,",
+    "start": 35.625,
+    "end": 36
+  },
+  {
+    "word": "fick",
+    "start": 36,
+    "end": 36.429
+  },
+  {
+    "word": "dein",
+    "start": 36.429,
+    "end": 36.857
+  },
+  {
+    "word": "Gelaber,",
+    "start": 36.857,
+    "end": 37.286
+  },
+  {
+    "word": "ich",
+    "start": 37.286,
+    "end": 37.714
+  },
+  {
+    "word": "terminiere",
+    "start": 37.714,
+    "end": 38.143
+  },
+  {
+    "word": "dein",
+    "start": 38.143,
+    "end": 38.571
+  },
+  {
+    "word": "Ego-Idol.",
+    "start": 38.571,
+    "end": 39
+  },
+  {
+    "word": "Check",
+    "start": 39,
+    "end": 39.375
+  },
+  {
+    "word": "das",
+    "start": 39.375,
+    "end": 39.75
+  },
+  {
+    "word": "Interieur,",
+    "start": 39.75,
+    "end": 40.125
+  },
+  {
+    "word": "wir",
+    "start": 40.125,
+    "end": 40.5
+  },
+  {
+    "word": "leben",
+    "start": 40.5,
+    "end": 40.875
+  },
+  {
+    "word": "nach",
+    "start": 40.875,
+    "end": 41.25
+  },
+  {
+    "word": "dem",
+    "start": 41.25,
+    "end": 41.625
+  },
+  {
+    "word": "Credo-Kodex,",
+    "start": 41.625,
+    "end": 42
+  },
+  {
+    "word": "Berge",
+    "start": 42,
+    "end": 42.375
+  },
+  {
+    "word": "von",
+    "start": 42.375,
+    "end": 42.75
+  },
+  {
+    "word": "Cashflow,",
+    "start": 42.75,
+    "end": 43.125
+  },
+  {
+    "word": "kein",
+    "start": 43.125,
+    "end": 43.5
+  },
+  {
+    "word": "Platz",
+    "start": 43.5,
+    "end": 43.875
+  },
+  {
+    "word": "für",
+    "start": 43.875,
+    "end": 44.25
+  },
+  {
+    "word": "dein",
+    "start": 44.25,
+    "end": 44.625
+  },
+  {
+    "word": "Egokomplex.",
+    "start": 44.625,
+    "end": 45
+  },
+  {
+    "word": "Ist",
+    "start": 45,
+    "end": 45.375
+  },
+  {
+    "word": "real",
+    "start": 45.375,
+    "end": 45.75
+  },
+  {
+    "word": "wie",
+    "start": 45.75,
+    "end": 46.125
+  },
+  {
+    "word": "der",
+    "start": 46.125,
+    "end": 46.5
+  },
+  {
+    "word": "alte",
+    "start": 46.5,
+    "end": 46.875
+  },
+  {
+    "word": "Sino,",
+    "start": 46.875,
+    "end": 47.25
+  },
+  {
+    "word": "absoluter",
+    "start": 47.25,
+    "end": 47.625
+  },
+  {
+    "word": "Psychostil,",
+    "start": 47.625,
+    "end": 48
+  },
+  {
+    "word": "was",
+    "start": 48,
+    "end": 48.273
+  },
+  {
+    "word": "du",
+    "start": 48.273,
+    "end": 48.545
+  },
+  {
+    "word": "ziehst",
+    "start": 48.545,
+    "end": 48.818
+  },
+  {
+    "word": "ist",
+    "start": 48.818,
+    "end": 49.091
+  },
+  {
+    "word": "Primo,",
+    "start": 49.091,
+    "end": 49.364
+  },
+  {
+    "word": "ich",
+    "start": 49.364,
+    "end": 49.636
+  },
+  {
+    "word": "zieh",
+    "start": 49.636,
+    "end": 49.909
+  },
+  {
+    "word": "die",
+    "start": 49.909,
+    "end": 50.182
+  },
+  {
+    "word": "Fäden",
+    "start": 50.182,
+    "end": 50.455
+  },
+  {
+    "word": "im",
+    "start": 50.455,
+    "end": 50.727
+  },
+  {
+    "word": "Brustprofil.",
+    "start": 50.727,
+    "end": 51
+  },
+  {
+    "word": "Füttert",
+    "start": 51,
+    "end": 51.429
+  },
+  {
+    "word": "ein",
+    "start": 51.429,
+    "end": 51.857
+  },
+  {
+    "word": "Kilo",
+    "start": 51.857,
+    "end": 52.286
+  },
+  {
+    "word": "Teig,",
+    "start": 52.286,
+    "end": 52.714
+  },
+  {
+    "word": "Eier",
+    "start": 52.714,
+    "end": 53.143
+  },
+  {
+    "word": "kicken",
+    "start": 53.143,
+    "end": 53.571
+  },
+  {
+    "word": "libido-wie,",
+    "start": 53.571,
+    "end": 54
+  },
+  {
+    "word": "wir",
+    "start": 54,
+    "end": 54.5
+  },
+  {
+    "word": "definieren",
+    "start": 54.5,
+    "end": 55
+  },
+  {
+    "word": "hier",
+    "start": 55,
+    "end": 55.5
+  },
+  {
+    "word": "den",
+    "start": 55.5,
+    "end": 56
+  },
+  {
+    "word": "kriminellen",
+    "start": 56,
+    "end": 56.5
+  },
+  {
+    "word": "Zeitvertreib.",
+    "start": 56.5,
+    "end": 57
+  },
+  {
+    "word": "Peitsch",
+    "start": 57,
+    "end": 57.333
+  },
+  {
+    "word": "es",
+    "start": 57.333,
+    "end": 57.667
+  },
+  {
+    "word": "wie",
+    "start": 57.667,
+    "end": 58
+  },
+  {
+    "word": "devo,",
+    "start": 58,
+    "end": 58.333
+  },
+  {
+    "word": "die",
+    "start": 58.333,
+    "end": 58.667
+  },
+  {
+    "word": "Weste",
+    "start": 58.667,
+    "end": 59
+  },
+  {
+    "word": "bleibt",
+    "start": 59,
+    "end": 59.333
+  },
+  {
+    "word": "schneeweiß",
+    "start": 59.333,
+    "end": 59.667
+  },
+  {
+    "word": "rein,",
+    "start": 59.667,
+    "end": 60
+  },
+  {
+    "word": "bricht",
+    "start": 60,
+    "end": 60.25
+  },
+  {
+    "word": "den",
+    "start": 60.25,
+    "end": 60.5
+  },
+  {
+    "word": "Schlüssel",
+    "start": 60.5,
+    "end": 60.75
+  },
+  {
+    "word": "im",
+    "start": 60.75,
+    "end": 61
+  },
+  {
+    "word": "Schloss",
+    "start": 61,
+    "end": 61.25
+  },
+  {
+    "word": "ab,",
+    "start": 61.25,
+    "end": 61.5
+  },
+  {
+    "word": "du",
+    "start": 61.5,
+    "end": 61.75
+  },
+  {
+    "word": "wirst",
+    "start": 61.75,
+    "end": 62
+  },
+  {
+    "word": "um",
+    "start": 62,
+    "end": 62.25
+  },
+  {
+    "word": "dein",
+    "start": 62.25,
+    "end": 62.5
+  },
+  {
+    "word": "Leben",
+    "start": 62.5,
+    "end": 62.75
+  },
+  {
+    "word": "schreien!",
+    "start": 62.75,
+    "end": 63
+  },
+  {
+    "word": "Keine",
+    "start": 63,
+    "end": 63.375
+  },
+  {
+    "word": "Peepshow,",
+    "start": 63.375,
+    "end": 63.75
+  },
+  {
+    "word": "Nutte,",
+    "start": 63.75,
+    "end": 64.125
+  },
+  {
+    "word": "das",
+    "start": 64.125,
+    "end": 64.5
+  },
+  {
+    "word": "hier",
+    "start": 64.5,
+    "end": 64.875
+  },
+  {
+    "word": "ist",
+    "start": 64.875,
+    "end": 65.25
+  },
+  {
+    "word": "die",
+    "start": 65.25,
+    "end": 65.625
+  },
+  {
+    "word": "Endstation,",
+    "start": 65.625,
+    "end": 66
+  },
+  {
+    "word": "Schüsse",
+    "start": 66,
+    "end": 66.5
+  },
+  {
+    "word": "durch",
+    "start": 66.5,
+    "end": 67
+  },
+  {
+    "word": "den",
+    "start": 67,
+    "end": 67.5
+  },
+  {
+    "word": "Spion,",
+    "start": 67.5,
+    "end": 68
+  },
+  {
+    "word": "absolute",
+    "start": 68,
+    "end": 68.5
+  },
+  {
+    "word": "Grenzinvasion.",
+    "start": 68.5,
+    "end": 69
+  },
+  {
+    "word": "Ich",
+    "start": 69,
+    "end": 69.273
+  },
+  {
+    "word": "lach",
+    "start": 69.273,
+    "end": 69.545
+  },
+  {
+    "word": "mich",
+    "start": 69.545,
+    "end": 69.818
+  },
+  {
+    "word": "tot,",
+    "start": 69.818,
+    "end": 70.091
+  },
+  {
+    "word": "du",
+    "start": 70.091,
+    "end": 70.364
+  },
+  {
+    "word": "willst",
+    "start": 70.364,
+    "end": 70.636
+  },
+  {
+    "word": "wissen,",
+    "start": 70.636,
+    "end": 70.909
+  },
+  {
+    "word": "ob",
+    "start": 70.909,
+    "end": 71.182
+  },
+  {
+    "word": "ich",
+    "start": 71.182,
+    "end": 71.455
+  },
+  {
+    "word": "kaltblütig",
+    "start": 71.455,
+    "end": 71.727
+  },
+  {
+    "word": "bin?",
+    "start": 71.727,
+    "end": 72
+  },
+  {
+    "word": "Ich",
+    "start": 72,
+    "end": 72.3
+  },
+  {
+    "word": "verwalte",
+    "start": 72.3,
+    "end": 72.6
+  },
+  {
+    "word": "den",
+    "start": 72.6,
+    "end": 72.9
+  },
+  {
+    "word": "Schnee,",
+    "start": 72.9,
+    "end": 73.2
+  },
+  {
+    "word": "bis",
+    "start": 73.2,
+    "end": 73.5
+  },
+  {
+    "word": "du",
+    "start": 73.5,
+    "end": 73.8
+  },
+  {
+    "word": "in",
+    "start": 73.8,
+    "end": 74.1
+  },
+  {
+    "word": "der",
+    "start": 74.1,
+    "end": 74.4
+  },
+  {
+    "word": "Kaltmühle",
+    "start": 74.4,
+    "end": 74.7
+  },
+  {
+    "word": "hängst.",
+    "start": 74.7,
+    "end": 75
+  },
+  {
+    "word": "Griff",
+    "start": 75,
+    "end": 75.333
+  },
+  {
+    "word": "an",
+    "start": 75.333,
+    "end": 75.667
+  },
+  {
+    "word": "die",
+    "start": 75.667,
+    "end": 76
+  },
+  {
+    "word": "Kehle,",
+    "start": 76,
+    "end": 76.333
+  },
+  {
+    "word": "ein",
+    "start": 76.333,
+    "end": 76.667
+  },
+  {
+    "word": "Schlag",
+    "start": 76.667,
+    "end": 77
+  },
+  {
+    "word": "gegen",
+    "start": 77,
+    "end": 77.333
+  },
+  {
+    "word": "die",
+    "start": 77.333,
+    "end": 77.667
+  },
+  {
+    "word": "Kehlkopfgegend,",
+    "start": 77.667,
+    "end": 78
+  },
+  {
+    "word": "deine",
+    "start": 78,
+    "end": 78.375
+  },
+  {
+    "word": "Todesangst",
+    "start": 78.375,
+    "end": 78.75
+  },
+  {
+    "word": "ist",
+    "start": 78.75,
+    "end": 79.125
+  },
+  {
+    "word": "das,",
+    "start": 79.125,
+    "end": 79.5
+  },
+  {
+    "word": "was",
+    "start": 79.5,
+    "end": 79.875
+  },
+  {
+    "word": "heute",
+    "start": 79.875,
+    "end": 80.25
+  },
+  {
+    "word": "Leben",
+    "start": 80.25,
+    "end": 80.625
+  },
+  {
+    "word": "sprengt.",
+    "start": 80.625,
+    "end": 81
+  },
+  {
+    "word": "Meine",
+    "start": 81,
+    "end": 81.3
+  },
+  {
+    "word": "Kleine",
+    "start": 81.3,
+    "end": 81.6
+  },
+  {
+    "word": "spielt",
+    "start": 81.6,
+    "end": 81.9
+  },
+  {
+    "word": "die",
+    "start": 81.9,
+    "end": 82.2
+  },
+  {
+    "word": "Brave,",
+    "start": 82.2,
+    "end": 82.5
+  },
+  {
+    "word": "ich",
+    "start": 82.5,
+    "end": 82.8
+  },
+  {
+    "word": "hab",
+    "start": 82.8,
+    "end": 83.1
+  },
+  {
+    "word": "die",
+    "start": 83.1,
+    "end": 83.4
+  },
+  {
+    "word": "Massen",
+    "start": 83.4,
+    "end": 83.7
+  },
+  {
+    "word": "gesehen,",
+    "start": 83.7,
+    "end": 84
+  },
+  {
+    "word": "für",
+    "start": 84,
+    "end": 84.3
+  },
+  {
+    "word": "'ne",
+    "start": 84.3,
+    "end": 84.6
+  },
+  {
+    "word": "Zwanzie",
+    "start": 84.6,
+    "end": 84.9
+  },
+  {
+    "word": "lässt",
+    "start": 84.9,
+    "end": 85.2
+  },
+  {
+    "word": "sie",
+    "start": 85.2,
+    "end": 85.5
+  },
+  {
+    "word": "jeden",
+    "start": 85.5,
+    "end": 85.8
+  },
+  {
+    "word": "durch",
+    "start": 85.8,
+    "end": 86.1
+  },
+  {
+    "word": "die",
+    "start": 86.1,
+    "end": 86.4
+  },
+  {
+    "word": "Gassen",
+    "start": 86.4,
+    "end": 86.7
+  },
+  {
+    "word": "gehen.",
+    "start": 86.7,
+    "end": 87
+  },
+  {
+    "word": "Liegt",
+    "start": 87,
+    "end": 87.231
+  },
+  {
+    "word": "es",
+    "start": 87.231,
+    "end": 87.462
+  },
+  {
+    "word": "daran,",
+    "start": 87.462,
+    "end": 87.692
+  },
+  {
+    "word": "dass",
+    "start": 87.692,
+    "end": 87.923
+  },
+  {
+    "word": "ihr",
+    "start": 87.923,
+    "end": 88.154
+  },
+  {
+    "word": "das",
+    "start": 88.154,
+    "end": 88.385
+  },
+  {
+    "word": "gar",
+    "start": 88.385,
+    "end": 88.615
+  },
+  {
+    "word": "nicht",
+    "start": 88.615,
+    "end": 88.846
+  },
+  {
+    "word": "lebt,",
+    "start": 88.846,
+    "end": 89.077
+  },
+  {
+    "word": "ihr",
+    "start": 89.077,
+    "end": 89.308
+  },
+  {
+    "word": "zwitschert",
+    "start": 89.308,
+    "end": 89.538
+  },
+  {
+    "word": "nur",
+    "start": 89.538,
+    "end": 89.769
+  },
+  {
+    "word": "zurück?",
+    "start": 89.769,
+    "end": 90
+  },
+  {
+    "word": "Gibt",
+    "start": 90,
+    "end": 90.25
+  },
+  {
+    "word": "es",
+    "start": 90.25,
+    "end": 90.5
+  },
+  {
+    "word": "endlich",
+    "start": 90.5,
+    "end": 90.75
+  },
+  {
+    "word": "zu,",
+    "start": 90.75,
+    "end": 91
+  },
+  {
+    "word": "ihr",
+    "start": 91,
+    "end": 91.25
+  },
+  {
+    "word": "wollt",
+    "start": 91.25,
+    "end": 91.5
+  },
+  {
+    "word": "den",
+    "start": 91.5,
+    "end": 91.75
+  },
+  {
+    "word": "Kick",
+    "start": 91.75,
+    "end": 92
+  },
+  {
+    "word": "und",
+    "start": 92,
+    "end": 92.25
+  },
+  {
+    "word": "das",
+    "start": 92.25,
+    "end": 92.5
+  },
+  {
+    "word": "Genick",
+    "start": 92.5,
+    "end": 92.75
+  },
+  {
+    "word": "zurück?",
+    "start": 92.75,
+    "end": 93
+  },
+  {
+    "word": "Komm",
+    "start": 93,
+    "end": 93.25
+  },
+  {
+    "word": "und",
+    "start": 93.25,
+    "end": 93.5
+  },
+  {
+    "word": "hol",
+    "start": 93.5,
+    "end": 93.75
+  },
+  {
+    "word": "es",
+    "start": 93.75,
+    "end": 94
+  },
+  {
+    "word": "dir,",
+    "start": 94,
+    "end": 94.25
+  },
+  {
+    "word": "spuck",
+    "start": 94.25,
+    "end": 94.5
+  },
+  {
+    "word": "in",
+    "start": 94.5,
+    "end": 94.75
+  },
+  {
+    "word": "die",
+    "start": 94.75,
+    "end": 95
+  },
+  {
+    "word": "Pfanne,",
+    "start": 95,
+    "end": 95.25
+  },
+  {
+    "word": "sieh",
+    "start": 95.25,
+    "end": 95.5
+  },
+  {
+    "word": "es",
+    "start": 95.5,
+    "end": 95.75
+  },
+  {
+    "word": "nicht,",
+    "start": 95.75,
+    "end": 96
+  },
+  {
+    "word": "deine",
+    "start": 96,
+    "end": 96.333
+  },
+  {
+    "word": "Frau",
+    "start": 96.333,
+    "end": 96.667
+  },
+  {
+    "word": "war",
+    "start": 96.667,
+    "end": 97
+  },
+  {
+    "word": "ich",
+    "start": 97,
+    "end": 97.333
+  },
+  {
+    "word": "einmal",
+    "start": 97.333,
+    "end": 97.667
+  },
+  {
+    "word": "an",
+    "start": 97.667,
+    "end": 98
+  },
+  {
+    "word": "ihr",
+    "start": 98,
+    "end": 98.333
+  },
+  {
+    "word": "dran,",
+    "start": 98.333,
+    "end": 98.667
+  },
+  {
+    "word": "Junge.",
+    "start": 98.667,
+    "end": 99
+  },
+  {
+    "word": "Deine",
+    "start": 99,
+    "end": 99.333
+  },
+  {
+    "word": "Kinder",
+    "start": 99.333,
+    "end": 99.667
+  },
+  {
+    "word": "nennen",
+    "start": 99.667,
+    "end": 100
+  },
+  {
+    "word": "mich",
+    "start": 100,
+    "end": 100.333
+  },
+  {
+    "word": "Onkel",
+    "start": 100.333,
+    "end": 100.667
+  },
+  {
+    "word": "Meth,",
+    "start": 100.667,
+    "end": 101
+  },
+  {
+    "word": "wenn",
+    "start": 101,
+    "end": 101.333
+  },
+  {
+    "word": "ich",
+    "start": 101.333,
+    "end": 101.667
+  },
+  {
+    "word": "komm.",
+    "start": 101.667,
+    "end": 102
+  },
+  {
+    "word": "Hola!",
+    "start": 102,
+    "end": 102.5
+  },
+  {
+    "word": "Trink",
+    "start": 102.5,
+    "end": 103
+  },
+  {
+    "word": "den",
+    "start": 103,
+    "end": 103.5
+  },
+  {
+    "word": "Henny",
+    "start": 103.5,
+    "end": 104
+  },
+  {
+    "word": "im",
+    "start": 104,
+    "end": 104.5
+  },
+  {
+    "word": "Bronco,",
+    "start": 104.5,
+    "end": 105
+  },
+  {
+    "word": "direkt",
+    "start": 105,
+    "end": 105.429
+  },
+  {
+    "word": "neben",
+    "start": 105.429,
+    "end": 105.857
+  },
+  {
+    "word": "der",
+    "start": 105.857,
+    "end": 106.286
+  },
+  {
+    "word": "Hennessy-Bottle,",
+    "start": 106.286,
+    "end": 106.714
+  },
+  {
+    "word": "Model",
+    "start": 106.714,
+    "end": 107.143
+  },
+  {
+    "word": "mit",
+    "start": 107.143,
+    "end": 107.571
+  },
+  {
+    "word": "Top-Konto,",
+    "start": 107.571,
+    "end": 108
+  },
+  {
+    "word": "sie",
+    "start": 108,
+    "end": 108.333
+  },
+  {
+    "word": "liebt",
+    "start": 108.333,
+    "end": 108.667
+  },
+  {
+    "word": "den",
+    "start": 108.667,
+    "end": 109
+  },
+  {
+    "word": "Benny",
+    "start": 109,
+    "end": 109.333
+  },
+  {
+    "word": "Blanco,",
+    "start": 109.333,
+    "end": 109.667
+  },
+  {
+    "word": "Trottel,",
+    "start": 109.667,
+    "end": 110
+  },
+  {
+    "word": "Mami",
+    "start": 110,
+    "end": 110.333
+  },
+  {
+    "word": "te",
+    "start": 110.333,
+    "end": 110.667
+  },
+  {
+    "word": "amo,",
+    "start": 110.667,
+    "end": 111
+  },
+  {
+    "word": "sie",
+    "start": 111,
+    "end": 111.333
+  },
+  {
+    "word": "zieht",
+    "start": 111.333,
+    "end": 111.667
+  },
+  {
+    "word": "sich",
+    "start": 111.667,
+    "end": 112
+  },
+  {
+    "word": "die",
+    "start": 112,
+    "end": 112.333
+  },
+  {
+    "word": "Lines",
+    "start": 112.333,
+    "end": 112.667
+  },
+  {
+    "word": "rein,",
+    "start": 112.667,
+    "end": 113
+  },
+  {
+    "word": "alles",
+    "start": 113,
+    "end": 113.333
+  },
+  {
+    "word": "Blenders",
+    "start": 113.333,
+    "end": 113.667
+  },
+  {
+    "word": "hier,",
+    "start": 113.667,
+    "end": 114
+  },
+  {
+    "word": "keine",
+    "start": 114,
+    "end": 114.333
+  },
+  {
+    "word": "Zigarre,",
+    "start": 114.333,
+    "end": 114.667
+  },
+  {
+    "word": "doch",
+    "start": 114.667,
+    "end": 115
+  },
+  {
+    "word": "sie",
+    "start": 115,
+    "end": 115.333
+  },
+  {
+    "word": "wird",
+    "start": 115.333,
+    "end": 115.667
+  },
+  {
+    "word": "weich",
+    "start": 115.667,
+    "end": 116
+  },
+  {
+    "word": "unter",
+    "start": 116,
+    "end": 116.333
+  },
+  {
+    "word": "meinem",
+    "start": 116.333,
+    "end": 116.667
+  },
+  {
+    "word": "Kommando-Ziel.",
+    "start": 116.667,
+    "end": 117
+  },
+  {
+    "word": "Keine",
+    "start": 117,
+    "end": 117.375
+  },
+  {
+    "word": "Kombi",
+    "start": 117.375,
+    "end": 117.75
+  },
+  {
+    "word": "42,",
+    "start": 117.75,
+    "end": 118.125
+  },
+  {
+    "word": "Mano,",
+    "start": 118.125,
+    "end": 118.5
+  },
+  {
+    "word": "mach",
+    "start": 118.5,
+    "end": 118.875
+  },
+  {
+    "word": "mal",
+    "start": 118.875,
+    "end": 119.25
+  },
+  {
+    "word": "pronto",
+    "start": 119.25,
+    "end": 119.625
+  },
+  {
+    "word": "Vorgang,",
+    "start": 119.625,
+    "end": 120
+  },
+  {
+    "word": "hat",
+    "start": 120,
+    "end": 120.429
+  },
+  {
+    "word": "mein",
+    "start": 120.429,
+    "end": 120.857
+  },
+  {
+    "word": "Gürtel",
+    "start": 120.857,
+    "end": 121.286
+  },
+  {
+    "word": "es",
+    "start": 121.286,
+    "end": 121.714
+  },
+  {
+    "word": "wie",
+    "start": 121.714,
+    "end": 122.143
+  },
+  {
+    "word": "Desperados",
+    "start": 122.143,
+    "end": 122.571
+  },
+  {
+    "word": "Sopranos-Rang.",
+    "start": 122.571,
+    "end": 123
+  },
+  {
+    "word": "Mund",
+    "start": 123,
+    "end": 123.176
+  },
+  {
+    "word": "auf,",
+    "start": 123.176,
+    "end": 123.353
+  },
+  {
+    "word": "Baby,",
+    "start": 123.353,
+    "end": 123.529
+  },
+  {
+    "word": "ja,",
+    "start": 123.529,
+    "end": 123.706
+  },
+  {
+    "word": "das",
+    "start": 123.706,
+    "end": 123.882
+  },
+  {
+    "word": "machst",
+    "start": 123.882,
+    "end": 124.059
+  },
+  {
+    "word": "du",
+    "start": 124.059,
+    "end": 124.235
+  },
+  {
+    "word": "einwandfrei,",
+    "start": 124.235,
+    "end": 124.412
+  },
+  {
+    "word": "wie",
+    "start": 124.412,
+    "end": 124.588
+  },
+  {
+    "word": "ein",
+    "start": 124.588,
+    "end": 124.765
+  },
+  {
+    "word": "Dieseltank,",
+    "start": 124.765,
+    "end": 124.941
+  },
+  {
+    "word": "du",
+    "start": 124.941,
+    "end": 125.118
+  },
+  {
+    "word": "mein",
+    "start": 125.118,
+    "end": 125.294
+  },
+  {
+    "word": "dicker",
+    "start": 125.294,
+    "end": 125.471
+  },
+  {
+    "word": "Zapfhahn,",
+    "start": 125.471,
+    "end": 125.647
+  },
+  {
+    "word": "passt",
+    "start": 125.647,
+    "end": 125.824
+  },
+  {
+    "word": "rein.",
+    "start": 125.824,
+    "end": 126
+  },
+  {
+    "word": "Wer",
+    "start": 126,
+    "end": 126.75
+  },
+  {
+    "word": "den",
+    "start": 126.75,
+    "end": 127.5
+  },
+  {
+    "word": "Tiger",
+    "start": 127.5,
+    "end": 128.25
+  },
+  {
+    "word": "reizt...",
+    "start": 128.25,
+    "end": 129
+  },
+  {
+    "word": "...muss",
+    "start": 129,
+    "end": 129.6
+  },
+  {
+    "word": "mit",
+    "start": 129.6,
+    "end": 130.2
+  },
+  {
+    "word": "seinen",
+    "start": 130.2,
+    "end": 130.8
+  },
+  {
+    "word": "Krallen",
+    "start": 130.8,
+    "end": 131.4
+  },
+  {
+    "word": "rechnen.",
+    "start": 131.4,
+    "end": 132
+  },
+  {
+    "word": "Alles",
+    "start": 132,
+    "end": 132.5
+  },
+  {
+    "word": "auf",
+    "start": 132.5,
+    "end": 133
+  },
+  {
+    "word": "Null,",
+    "start": 133,
+    "end": 133.5
+  },
+  {
+    "word": "der",
+    "start": 133.5,
+    "end": 134
+  },
+  {
+    "word": "Puls",
+    "start": 134,
+    "end": 134.5
+  },
+  {
+    "word": "steigt.",
+    "start": 134.5,
+    "end": 135
+  },
+  {
+    "word": "Wenn",
+    "start": 135,
+    "end": 135.6
+  },
+  {
+    "word": "der",
+    "start": 135.6,
+    "end": 136.2
+  },
+  {
+    "word": "Beat",
+    "start": 136.2,
+    "end": 136.8
+  },
+  {
+    "word": "gleich",
+    "start": 136.8,
+    "end": 137.4
+  },
+  {
+    "word": "zurückkehrt...",
+    "start": 137.4,
+    "end": 138
+  },
+  {
+    "word": "...ist",
+    "start": 138,
+    "end": 138.75
+  },
+  {
+    "word": "dein",
+    "start": 138.75,
+    "end": 139.5
+  },
+  {
+    "word": "Schicksal",
+    "start": 139.5,
+    "end": 140.25
+  },
+  {
+    "word": "besiegelt.",
+    "start": 140.25,
+    "end": 141
+  },
+  {
+    "word": "Ah!",
+    "start": 141,
+    "end": 141.429
+  },
+  {
+    "word": "Miese",
+    "start": 141.429,
+    "end": 141.857
+  },
+  {
+    "word": "Grammatik,",
+    "start": 141.857,
+    "end": 142.286
+  },
+  {
+    "word": "ich",
+    "start": 142.286,
+    "end": 142.714
+  },
+  {
+    "word": "bleibe",
+    "start": 142.714,
+    "end": 143.143
+  },
+  {
+    "word": "die",
+    "start": 143.143,
+    "end": 143.571
+  },
+  {
+    "word": "Revier-Volksmacht,",
+    "start": 143.571,
+    "end": 144
+  },
+  {
+    "word": "ich",
+    "start": 144,
+    "end": 144.3
+  },
+  {
+    "word": "fresse",
+    "start": 144.3,
+    "end": 144.6
+  },
+  {
+    "word": "euch",
+    "start": 144.6,
+    "end": 144.9
+  },
+  {
+    "word": "lebendig,",
+    "start": 144.9,
+    "end": 145.2
+  },
+  {
+    "word": "ihr",
+    "start": 145.2,
+    "end": 145.5
+  },
+  {
+    "word": "seid",
+    "start": 145.5,
+    "end": 145.8
+  },
+  {
+    "word": "nur",
+    "start": 145.8,
+    "end": 146.1
+  },
+  {
+    "word": "Papier,",
+    "start": 146.1,
+    "end": 146.4
+  },
+  {
+    "word": "Holz,",
+    "start": 146.4,
+    "end": 146.7
+  },
+  {
+    "word": "Wrack.",
+    "start": 146.7,
+    "end": 147
+  },
+  {
+    "word": "Wie",
+    "start": 147,
+    "end": 147.3
+  },
+  {
+    "word": "Thor",
+    "start": 147.3,
+    "end": 147.6
+  },
+  {
+    "word": "mit",
+    "start": 147.6,
+    "end": 147.9
+  },
+  {
+    "word": "dem",
+    "start": 147.9,
+    "end": 148.2
+  },
+  {
+    "word": "Hammer,",
+    "start": 148.2,
+    "end": 148.5
+  },
+  {
+    "word": "ein",
+    "start": 148.5,
+    "end": 148.8
+  },
+  {
+    "word": "Schlag,",
+    "start": 148.8,
+    "end": 149.1
+  },
+  {
+    "word": "Game",
+    "start": 149.1,
+    "end": 149.4
+  },
+  {
+    "word": "Over",
+    "start": 149.4,
+    "end": 149.7
+  },
+  {
+    "word": "Sequenz,",
+    "start": 149.7,
+    "end": 150
+  },
+  {
+    "word": "ich",
+    "start": 150,
+    "end": 150.375
+  },
+  {
+    "word": "roll",
+    "start": 150.375,
+    "end": 150.75
+  },
+  {
+    "word": "über",
+    "start": 150.75,
+    "end": 151.125
+  },
+  {
+    "word": "euch",
+    "start": 151.125,
+    "end": 151.5
+  },
+  {
+    "word": "drüber,",
+    "start": 151.5,
+    "end": 151.875
+  },
+  {
+    "word": "Range",
+    "start": 151.875,
+    "end": 152.25
+  },
+  {
+    "word": "Rover",
+    "start": 152.25,
+    "end": 152.625
+  },
+  {
+    "word": "Präsenz!",
+    "start": 152.625,
+    "end": 153
+  },
+  {
+    "word": "Hinter",
+    "start": 153,
+    "end": 153.333
+  },
+  {
+    "word": "der",
+    "start": 153.333,
+    "end": 153.667
+  },
+  {
+    "word": "Kutsch-Tür,",
+    "start": 153.667,
+    "end": 154
+  },
+  {
+    "word": "wegen",
+    "start": 154,
+    "end": 154.333
+  },
+  {
+    "word": "der",
+    "start": 154.333,
+    "end": 154.667
+  },
+  {
+    "word": "Batzen",
+    "start": 154.667,
+    "end": 155
+  },
+  {
+    "word": "im",
+    "start": 155,
+    "end": 155.333
+  },
+  {
+    "word": "Tresorfach",
+    "start": 155.333,
+    "end": 155.667
+  },
+  {
+    "word": "Schacht,",
+    "start": 155.667,
+    "end": 156
+  },
+  {
+    "word": "ich",
+    "start": 156,
+    "end": 156.375
+  },
+  {
+    "word": "bin",
+    "start": 156.375,
+    "end": 156.75
+  },
+  {
+    "word": "das",
+    "start": 156.75,
+    "end": 157.125
+  },
+  {
+    "word": "Gewitter,",
+    "start": 157.125,
+    "end": 157.5
+  },
+  {
+    "word": "das",
+    "start": 157.5,
+    "end": 157.875
+  },
+  {
+    "word": "dein",
+    "start": 157.875,
+    "end": 158.25
+  },
+  {
+    "word": "Oberdach",
+    "start": 158.25,
+    "end": 158.625
+  },
+  {
+    "word": "schlagt.",
+    "start": 158.625,
+    "end": 159
+  },
+  {
+    "word": "Ihr",
+    "start": 159,
+    "end": 159.3
+  },
+  {
+    "word": "liefert",
+    "start": 159.3,
+    "end": 159.6
+  },
+  {
+    "word": "den",
+    "start": 159.6,
+    "end": 159.9
+  },
+  {
+    "word": "Senf,",
+    "start": 159.9,
+    "end": 160.2
+  },
+  {
+    "word": "ich",
+    "start": 160.2,
+    "end": 160.5
+  },
+  {
+    "word": "das",
+    "start": 160.5,
+    "end": 160.8
+  },
+  {
+    "word": "Blei",
+    "start": 160.8,
+    "end": 161.1
+  },
+  {
+    "word": "in",
+    "start": 161.1,
+    "end": 161.4
+  },
+  {
+    "word": "die",
+    "start": 161.4,
+    "end": 161.7
+  },
+  {
+    "word": "Schläfengegend,",
+    "start": 161.7,
+    "end": 162
+  },
+  {
+    "word": "Raubtier-Modus,",
+    "start": 162,
+    "end": 162.6
+  },
+  {
+    "word": "ich",
+    "start": 162.6,
+    "end": 163.2
+  },
+  {
+    "word": "beende",
+    "start": 163.2,
+    "end": 163.8
+  },
+  {
+    "word": "dein",
+    "start": 163.8,
+    "end": 164.4
+  },
+  {
+    "word": "Schäferleben!",
+    "start": 164.4,
+    "end": 165
+  },
+  {
+    "word": "Bin",
+    "start": 165,
+    "end": 165.375
+  },
+  {
+    "word": "keine",
+    "start": 165.375,
+    "end": 165.75
+  },
+  {
+    "word": "Puppe,",
+    "start": 165.75,
+    "end": 166.125
+  },
+  {
+    "word": "ich",
+    "start": 166.125,
+    "end": 166.5
+  },
+  {
+    "word": "bring",
+    "start": 166.5,
+    "end": 166.875
+  },
+  {
+    "word": "euch",
+    "start": 166.875,
+    "end": 167.25
+  },
+  {
+    "word": "den",
+    "start": 167.25,
+    "end": 167.625
+  },
+  {
+    "word": "Hokuspokus,",
+    "start": 167.625,
+    "end": 168
+  },
+  {
+    "word": "Präzisionsarbeit,",
+    "start": 168,
+    "end": 169
+  },
+  {
+    "word": "kein",
+    "start": 169,
+    "end": 170
+  },
+  {
+    "word": "Hokuspokus.",
+    "start": 170,
+    "end": 171
+  },
+  {
+    "word": "Ich",
+    "start": 171,
+    "end": 171.3
+  },
+  {
+    "word": "bleib",
+    "start": 171.3,
+    "end": 171.6
+  },
+  {
+    "word": "am",
+    "start": 171.6,
+    "end": 171.9
+  },
+  {
+    "word": "Drücker,",
+    "start": 171.9,
+    "end": 172.2
+  },
+  {
+    "word": "der",
+    "start": 172.2,
+    "end": 172.5
+  },
+  {
+    "word": "Finger",
+    "start": 172.5,
+    "end": 172.8
+  },
+  {
+    "word": "ist",
+    "start": 172.8,
+    "end": 173.1
+  },
+  {
+    "word": "krumm",
+    "start": 173.1,
+    "end": 173.4
+  },
+  {
+    "word": "am",
+    "start": 173.4,
+    "end": 173.7
+  },
+  {
+    "word": "Lauf,",
+    "start": 173.7,
+    "end": 174
+  },
+  {
+    "word": "ich",
+    "start": 174,
+    "end": 174.333
+  },
+  {
+    "word": "ficke",
+    "start": 174.333,
+    "end": 174.667
+  },
+  {
+    "word": "die",
+    "start": 174.667,
+    "end": 175
+  },
+  {
+    "word": "Szene",
+    "start": 175,
+    "end": 175.333
+  },
+  {
+    "word": "und",
+    "start": 175.333,
+    "end": 175.667
+  },
+  {
+    "word": "räume",
+    "start": 175.667,
+    "end": 176
+  },
+  {
+    "word": "den",
+    "start": 176,
+    "end": 176.333
+  },
+  {
+    "word": "Bunker",
+    "start": 176.333,
+    "end": 176.667
+  },
+  {
+    "word": "auf.",
+    "start": 176.667,
+    "end": 177
+  },
+  {
+    "word": "Der",
+    "start": 177,
+    "end": 177.75
+  },
+  {
+    "word": "Sieg",
+    "start": 177.75,
+    "end": 178.5
+  },
+  {
+    "word": "gehört",
+    "start": 178.5,
+    "end": 179.25
+  },
+  {
+    "word": "denen...",
+    "start": 179.25,
+    "end": 180
+  },
+  {
+    "word": "...die",
+    "start": 180,
+    "end": 181
+  },
+  {
+    "word": "bereit",
+    "start": 181,
+    "end": 182
+  },
+  {
+    "word": "sind...",
+    "start": 182,
+    "end": 183
+  },
+  {
+    "word": "...alles",
+    "start": 183,
+    "end": 184
+  },
+  {
+    "word": "zu",
+    "start": 184,
+    "end": 185
+  },
+  {
+    "word": "opfern.",
+    "start": 185,
+    "end": 186
+  },
+  {
+    "word": "[DJ",
+    "start": 186,
+    "end": 186.375
+  },
+  {
+    "word": "Scratches",
+    "start": 186.375,
+    "end": 186.75
+  },
+  {
+    "word": "/",
+    "start": 186.75,
+    "end": 187.125
+  },
+  {
+    "word": "Beat]",
+    "start": 187.125,
+    "end": 187.5
+  },
+  {
+    "word": "...und",
+    "start": 187.5,
+    "end": 187.875
+  },
+  {
+    "word": "der",
+    "start": 187.875,
+    "end": 188.25
+  },
+  {
+    "word": "Puls",
+    "start": 188.25,
+    "end": 188.625
+  },
+  {
+    "word": "steigt...",
+    "start": 188.625,
+    "end": 189
+  },
+  {
+    "word": "[DJ",
+    "start": 189,
+    "end": 189.75
+  },
+  {
+    "word": "Scratches",
+    "start": 189.75,
+    "end": 190.5
+  },
+  {
+    "word": "/",
+    "start": 190.5,
+    "end": 191.25
+  },
+  {
+    "word": "Beat]",
+    "start": 191.25,
+    "end": 192
+  },
+  {
+    "word": "...wenn",
+    "start": 192,
+    "end": 192.6
+  },
+  {
+    "word": "der",
+    "start": 192.6,
+    "end": 193.2
+  },
+  {
+    "word": "Beat",
+    "start": 193.2,
+    "end": 193.8
+  },
+  {
+    "word": "gleich",
+    "start": 193.8,
+    "end": 194.4
+  },
+  {
+    "word": "zurückkehrt...",
+    "start": 194.4,
+    "end": 195
+  },
+  {
+    "word": "...ist",
+    "start": 195,
+    "end": 195.75
+  },
+  {
+    "word": "dein",
+    "start": 195.75,
+    "end": 196.5
+  },
+  {
+    "word": "Schicksal",
+    "start": 196.5,
+    "end": 197.25
+  },
+  {
+    "word": "besiegelt.",
+    "start": 197.25,
+    "end": 198
+  },
+  {
+    "word": "[Outro",
+    "start": 198,
+    "end": 199
+  },
+  {
+    "word": "Beat]",
+    "start": 199,
+    "end": 200
+  }
+]
+
