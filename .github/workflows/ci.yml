@@ -1,0 +1,38 @@
+name: Projekt pruefen
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Node Setup
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: remotion/package-lock.json
+
+      - name: Abhaengigkeiten installieren
+        working-directory: remotion
+        run: npm ci
+
+      - name: TypeScript pruefen
+        working-directory: remotion
+        run: npm run typecheck
+
+      - name: Remotion Bundle bauen
+        working-directory: remotion
+        run: npx remotion bundle src/index.ts --out-dir out/bundle
+
+      - name: Python-Syntax pruefen
+        run: python -m py_compile scripts/transcribe.py
