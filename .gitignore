@@ -1,0 +1,8 @@
+audio/*
+!audio/.gitkeep
+remotion/node_modules/
+remotion/out/
+remotion/public/audio.*
+__pycache__/
+*.pyc
+.DS_Store
