@@ -5,6 +5,7 @@ import { Lyrics } from './Lyrics';
 
 type Props = {
   title: string;
+  durationInSeconds?: number;
 };
 
 export const LyricVideo: React.FC<Props> = ({ title }) => {

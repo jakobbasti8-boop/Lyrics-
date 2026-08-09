@@ -94,9 +94,13 @@ jobs:
             --model "$MODEL"
 
       - name: Audio ins Remotion-public kopieren
+        id: converted_audio
         run: |
           ffmpeg -y -i "${{ steps.audio.outputs.audio_path }}" \
             -vn -acodec libmp3lame -q:a 2 remotion/public/audio.mp3
+          DURATION=$(ffprobe -v error -show_entries format=duration \
+            -of default=noprint_wrappers=1:nokey=1 remotion/public/audio.mp3)
+          echo "duration=$DURATION" >> "$GITHUB_OUTPUT"
 
       - name: Node Setup
         uses: actions/setup-node@v4
@@ -117,8 +121,9 @@ jobs:
         working-directory: remotion
         env:
           VIDEO_TITLE: ${{ steps.audio.outputs.title }}
+          AUDIO_DURATION: ${{ steps.converted_audio.outputs.duration }}
         run: |
-          node -e 'require("fs").writeFileSync("/tmp/render-props.json", JSON.stringify({title: process.env.VIDEO_TITLE}))'
+          node -e 'require("fs").writeFileSync("/tmp/render-props.json", JSON.stringify({title: process.env.VIDEO_TITLE, durationInSeconds: Number(process.env.AUDIO_DURATION)}))'
           npx remotion render LyricVideo out/video.mp4 --props=/tmp/render-props.json
 
       - name: Video als Artifact hochladen

@@ -17,11 +17,11 @@ export const RemotionRoot: React.FC = () => {
         // Fallback-Dauer für die Vorschau in Remotion Studio; beim Render
         // überschreibt calculateMetadata das mit der echten Audiolänge.
         durationInFrames={30 * FPS}
-        defaultProps={{ title: 'Untitled' }}
+        defaultProps={{ title: 'Untitled', durationInSeconds: undefined }}
         calculateMetadata={async ({ props }) => {
-          const durationInSeconds = await getAudioDurationInSeconds(
-            staticFile('audio.mp3'),
-          );
+          const durationInSeconds =
+            props.durationInSeconds ??
+            (await getAudioDurationInSeconds(staticFile('audio.mp3')));
           return {
             durationInFrames: Math.ceil(durationInSeconds * FPS),
             props,
