@@ -1,0 +1,21 @@
+{
+  "name": "lyric-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "render": "remotion render LyricVideo out/video.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.202",
+    "@remotion/media-utils": "4.0.202",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.202"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.1",
+    "typescript": "5.4.5"
+  }
+}
