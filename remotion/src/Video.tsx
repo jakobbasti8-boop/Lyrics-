@@ -23,7 +23,7 @@ export const RemotionRoot: React.FC = () => {
             staticFile('audio.mp3'),
           );
           return {
-            durationInFrames: Math.ceil(durationInSeconds * FPS) + FPS, // +1s Outro-Puffer
+            durationInFrames: Math.ceil(durationInSeconds * FPS),
             props,
           };
         }}
