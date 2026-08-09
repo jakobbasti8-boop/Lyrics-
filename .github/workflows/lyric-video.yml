@@ -1,0 +1,126 @@
+name: Lyric Video Rendern
+
+on:
+  # Trigger 1: Audio-Datei wird direkt ins Repo gepusht
+  push:
+    paths:
+      - 'audio/*.mp3'
+      - 'audio/*.wav'
+      - 'audio/*.m4a'
+
+  # Trigger 2: Hermes-Termux triggert per API (repository_dispatch)
+  # curl -X POST -H "Authorization: token $PAT" \
+  #   -H "Accept: application/vnd.github+json" \
+  #   https://api.github.com/repos/OWNER/REPO/dispatches \
+  #   -d '{"event_type":"render-lyric-video","client_payload":{"audio_url":"https://...","title":"Kellerlicht"}}'
+  repository_dispatch:
+    types: [render-lyric-video]
+
+  # manuelles Antriggern zum Testen
+  workflow_dispatch:
+    inputs:
+      audio_url:
+        description: 'Direkter Download-Link zur Audiodatei (optional, falls kein Push)'
+        required: false
+      title:
+        description: 'Titel für das Video'
+        required: false
+        default: 'Untitled'
+      whisper_model:
+        description: 'Whisper-Modell (tiny/base/small/medium/large-v3)'
+        required: false
+        default: 'medium'
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Audioquelle bestimmen
+        id: audio
+        run: |
+          mkdir -p audio
+          # Fall A: ausgelöst durch Push -> Datei liegt schon in audio/
+          if [ "${{ github.event_name }}" = "push" ]; then
+            FILE=$(git diff-tree --no-commit-id --name-only -r HEAD -- 'audio/*' | head -n 1)
+            if [ -z "$FILE" ]; then
+              FILE=$(ls audio/*.mp3 audio/*.wav audio/*.m4a 2>/dev/null | head -n 1)
+            fi
+            echo "audio_path=$FILE" >> "$GITHUB_OUTPUT"
+            echo "title=$(basename "$FILE" | sed 's/\.[^.]*$//')" >> "$GITHUB_OUTPUT"
+          else
+            # Fall B: repository_dispatch oder workflow_dispatch -> Audio per URL laden
+            URL='${{ github.event.client_payload.audio_url || github.event.inputs.audio_url }}'
+            TITLE='${{ github.event.client_payload.title || github.event.inputs.title || 'Untitled' }}'
+            if [ -z "$URL" ]; then
+              echo "Kein audio_url übergeben und kein Push erkannt." >&2
+              exit 1
+            fi
+            curl --fail --location --retry 3 "$URL" -o audio/input
+            echo "audio_path=audio/input" >> "$GITHUB_OUTPUT"
+            echo "title=${TITLE:-Untitled}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Python Setup
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Whisper + ffmpeg installieren
+        run: |
+          sudo apt-get update -y && sudo apt-get install -y ffmpeg
+          pip install --requirement requirements.txt
+
+      - name: Transkription (Word-Level Timestamps)
+        run: |
+          python scripts/transcribe.py \
+            --audio "${{ steps.audio.outputs.audio_path }}" \
+            --output remotion/public/lyrics.json \
+            --model "${{ github.event.client_payload.whisper_model || github.event.inputs.whisper_model || 'medium' }}"
+
+      - name: Audio ins Remotion-public kopieren
+        run: |
+          ffmpeg -y -i "${{ steps.audio.outputs.audio_path }}" \
+            -vn -acodec libmp3lame -q:a 2 remotion/public/audio.mp3
+
+      - name: Node Setup
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: remotion/package-lock.json
+
+      - name: Remotion-Dependencies installieren
+        working-directory: remotion
+        run: npm ci
+
+      - name: TypeScript prüfen
+        working-directory: remotion
+        run: npm run typecheck
+
+      - name: Video rendern
+        working-directory: remotion
+        env:
+          VIDEO_TITLE: ${{ steps.audio.outputs.title }}
+        run: |
+          node -e 'require("fs").writeFileSync("/tmp/render-props.json", JSON.stringify({title: process.env.VIDEO_TITLE}))'
+          npx remotion render LyricVideo out/video.mp4 --props=/tmp/render-props.json
+
+      - name: Video als Artifact hochladen
+        uses: actions/upload-artifact@v4
+        with:
+          name: lyric-video-${{ steps.audio.outputs.title }}
+          path: remotion/out/video.mp4
+          retention-days: 30
+
+      - name: Video an Telegram senden (optional)
+        if: ${{ secrets.TELEGRAM_BOT_TOKEN != '' && secrets.TELEGRAM_CHAT_ID != '' }}
+        run: |
+          curl -F chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
+            -F video=@remotion/out/video.mp4 \
+            -F caption="🎬 ${{ steps.audio.outputs.title }}" \
+            "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendVideo"
