@@ -42,6 +42,11 @@ jobs:
 
       - name: Audioquelle bestimmen
         id: audio
+        env:
+          DISPATCH_AUDIO_URL: ${{ github.event.client_payload.audio_url }}
+          INPUT_AUDIO_URL: ${{ github.event.inputs.audio_url }}
+          DISPATCH_TITLE: ${{ github.event.client_payload.title }}
+          INPUT_TITLE: ${{ github.event.inputs.title }}
         run: |
           mkdir -p audio
           # Fall A: ausgelöst durch Push -> Datei liegt schon in audio/
@@ -54,8 +59,8 @@ jobs:
             echo "title=$(basename "$FILE" | sed 's/\.[^.]*$//')" >> "$GITHUB_OUTPUT"
           else
             # Fall B: repository_dispatch oder workflow_dispatch -> Audio per URL laden
-            URL='${{ github.event.client_payload.audio_url || github.event.inputs.audio_url }}'
-            TITLE='${{ github.event.client_payload.title || github.event.inputs.title || 'Untitled' }}'
+            URL="${DISPATCH_AUDIO_URL:-$INPUT_AUDIO_URL}"
+            TITLE="${DISPATCH_TITLE:-${INPUT_TITLE:-Untitled}}"
             if [ -z "$URL" ]; then
               echo "Kein audio_url übergeben und kein Push erkannt." >&2
               exit 1
@@ -76,11 +81,15 @@ jobs:
           pip install --requirement requirements.txt
 
       - name: Transkription (Word-Level Timestamps)
+        env:
+          DISPATCH_WHISPER_MODEL: ${{ github.event.client_payload.whisper_model }}
+          INPUT_WHISPER_MODEL: ${{ github.event.inputs.whisper_model }}
         run: |
+          MODEL="${DISPATCH_WHISPER_MODEL:-${INPUT_WHISPER_MODEL:-medium}}"
           python scripts/transcribe.py \
             --audio "${{ steps.audio.outputs.audio_path }}" \
             --output remotion/public/lyrics.json \
-            --model "${{ github.event.client_payload.whisper_model || github.event.inputs.whisper_model || 'medium' }}"
+            --model "$MODEL"
 
       - name: Audio ins Remotion-public kopieren
         run: |
@@ -118,7 +127,10 @@ jobs:
           retention-days: 30
 
       - name: Video an Telegram senden (optional)
-        if: ${{ secrets.TELEGRAM_BOT_TOKEN != '' && secrets.TELEGRAM_CHAT_ID != '' }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        if: env.TELEGRAM_BOT_TOKEN != '' && env.TELEGRAM_CHAT_ID != ''
         run: |
           curl -F chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
             -F video=@remotion/out/video.mp4 \
